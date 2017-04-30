@@ -2,10 +2,6 @@ package fft_impl;
 
 public class rad2 {
 
-    static {
-        System.load("/home/ubuntu/IdeaProjects/fft/out/production/fft/libhello.so");
-    }
-
     public static Complex[] fft(Complex[] data) {
         int N = data.length;
 
